@@ -1,4 +1,6 @@
 # urldecode
+
+ [![Build Status](https://api.travis-ci.org/zhiyelee/urldecode.svg)](http://travis-ci.org/zhiyelee/urldecode)
 [![NPM Version](http://img.shields.io/npm/v/urldecode.svg?style=flat)](https://www.npmjs.org/package/urldecode)
 [![NPM Downloads](https://img.shields.io/npm/dm/urldecode.svg?style=flat)](https://www.npmjs.org/package/urldecode)
 

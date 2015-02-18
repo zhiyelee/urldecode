@@ -4,7 +4,8 @@
   "description": "Decode url",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec --bail --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/zhiyelee/urldecode/issues"
   },
-  "homepage": "https://github.com/zhiyelee/urldecode"
+  "homepage": "https://github.com/zhiyelee/urldecode",
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0"
+  }
 }
